@@ -1,0 +1,12 @@
+{
+  "role": {
+    "name": "hana_cloud_demo.db.access::analysisAccess",
+    "schema_privileges": [
+      {
+        "privileges": [
+          "SELECT"
+        ]
+      }
+    ]
+  }
+}

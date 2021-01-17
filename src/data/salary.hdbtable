@@ -1,0 +1,10 @@
+column table "hana_cloud_demo.db.data::SALARY" (
+	"ID" INTEGER  unique not null COMMENT 'Employee ID',
+	"SALARY" FLOAT COMMENT 'Salary',
+	"START_YEAR" INTEGER not null COMMENT 'Onboard Year',
+	"GENDER" NVARCHAR(1) COMMENT 'Gender',
+	"REGION" NVARCHAR(4) COMMENT 'Region',
+	"T-LEVEL" NVARCHAR(200) COMMENT 'Job Level',
+	PRIMARY KEY ("ID")
+)
+COMMENT 'Salary record'
